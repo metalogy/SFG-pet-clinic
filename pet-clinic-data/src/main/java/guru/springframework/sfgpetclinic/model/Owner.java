@@ -9,9 +9,6 @@ import javax.persistence.*;
 import java.util.HashSet;
 import java.util.Set;
 
-/**
- * Created by jt on 7/13/18.
- */
 @Setter
 @Getter
 @NoArgsConstructor
@@ -27,7 +24,7 @@ public class Owner extends Person {
         this.city = city;
         this.telephone = telephone;
 
-        if(pets != null) {
+        if (pets != null) {
             this.pets = pets;
         }
     }
